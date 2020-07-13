@@ -4,7 +4,6 @@ import axios from 'axios'
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
-import Alert from 'react-bootstrap/Alert';
 import Table from 'react-bootstrap/Table';
 import Badge from 'react-bootstrap/Badge';
 import DataScreen from './DataScreen'
@@ -34,9 +33,7 @@ const App = () => {
      localStorage.setItem("PageNumber", number);
 
    }
-
  }
-
 
  useEffect(() => {
  if(localStorage.getItem("PageNumber")){
