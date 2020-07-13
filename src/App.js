@@ -38,14 +38,12 @@ const App = () => {
  }
 
 
-
  useEffect(() => {
  if(localStorage.getItem("PageNumber")){
    setPageNumber(localStorage.getItem("PageNumber"));
    }
 
  });
-
 
   return (
     <Container className="p-3">
